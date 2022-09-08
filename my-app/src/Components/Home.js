@@ -1,16 +1,16 @@
 
 
 import React from 'react'
-import companyLogo from './path/to/logo.jpg';
+// import companyLogo from './path/to/logo.jpg';
 
 
-const Home =(Link)=>{
+const Home =(imgVar)=>{
     return(
         <div>
 
 
        <h1 > Corporate Event Solutions </h1>
-       <img src={Link} />
+       <img src={imgVar} />
 
        <p>Corporate Event Solutions
            Transform your in-person, virtual or hybrid event into an 
